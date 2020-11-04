@@ -62,6 +62,5 @@ if __name__ == "__main__":
     # Add the StreamHandler as a logging handler
     logger.addHandler(logging.StreamHandler())
 
-    # Run our app on our externally facing IP address on port 3000 instead of
-    # running it on localhost, which is traditional for development.
+    #run app on port 3000
     app.run(host='0.0.0.0', port=3000)
